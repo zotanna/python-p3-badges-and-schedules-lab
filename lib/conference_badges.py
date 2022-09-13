@@ -1,20 +1,11 @@
 def badge_maker(name):
-  return f"Hello, my name is {name}."
+    return None
 
 def batch_badge_creator(names):
-  messages = []
-  for name in names:
-    messages.append(badge_maker(name))
-  return messages
+    return None
 
 def assign_rooms(names):
-  rooms = []
-  for index, name in enumerate(names):
-    rooms.append(f"Hello, {name}! You'll be assigned to room {index+1}!")
-  return rooms
+    return None
 
 def printer(names):
-  for badge in batch_badge_creator(names):
-    print(badge)
-  for assignment in assign_rooms(names):
-    print(assignment)
+    return None
