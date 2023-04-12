@@ -76,7 +76,7 @@ You just realized that you also need to give each speaker a room assignment.
 Write a function called `assign_rooms()` that takes the list of speakers and
 assigns each speaker to a room. Make sure that each room only has one speaker.
 
-You have rooms 1-7.
+You have rooms 1-8.
 
 **Return a _new_ list of strings** representing room assignments in the form of:
 "Hello, \_\_\_\_\_! You'll be assigned to room \_\_\_\_\_!"
